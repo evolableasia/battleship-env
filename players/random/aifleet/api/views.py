@@ -103,7 +103,7 @@ class NotifyShotResult(APIView):
 
         print (player, shots, sunk_ships)
 
-        return Response(headers=return_headers, data='', status=status.HTTP_200_OK)
+        return Response(headers=return_headers, data={}, status=status.HTTP_200_OK)
 
 
 class GameOver(APIView):
