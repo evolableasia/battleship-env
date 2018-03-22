@@ -35,7 +35,7 @@ class BBInitBoardFetch extends Controller
         //
         //TienTN: now we not use hardcoded setting any more
         //$sessionID = Config::get('hackathon.game_session.id');
-        $sessionID = $red . '_' . $blue;
+        $sessionID = $red . '|' . $blue;
         $gameLogicURL = Config::get('hackathon.game_logic.presenter.init.url');
         $sFullURL = $gameLogicURL . "/" . $sessionID . "/token";
         $result = file_get_contents($sFullURL);

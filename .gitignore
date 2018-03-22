@@ -72,3 +72,7 @@ staticfiles/
 .idea/
 .jobdir/
 .cache/
+
+gameengine/
+local-engine.yml
+gameengine.Dockerfile
