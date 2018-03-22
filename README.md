@@ -25,7 +25,7 @@
 
     * Run
         ```
-        ./fig.sh run -d
+        ./fig.sh up -d
         ```
 
     * List the instances to confirm everything is working:
