@@ -7,12 +7,13 @@ services:
     volumes:
       - ./presenter:/var/www/laravel
       - ./apache/presenter_vhost.conf:/etc/apache2/sites-available/000-default.conf
+      - ./bot_urls.txt:/var/www/laravel/public/bot_urls.txt
   redis:
     image: redis
     ports:
       - "6379:6379"
   gameengine:
-    image: dinhnv/eva_gameengine:v1.0
+    image: dinhnv/eva_gameengine:v1.3
     ports:
       - "5000:5000"
     volumes:
