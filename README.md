@@ -6,6 +6,8 @@
 
 Please install Docker Engine and Docker Compose at this [document](https://docs.docker.com/compose/install/). If you aren't familiar with Docker, please read the official documents.
 
+You should To run Compose as a non-root user, see [Manage Docker as a non-root user](https://docs.docker.com/install/linux/linux-postinstall/).
+
 ### 2. Clone the repository
 
 ### 3. Build the image
