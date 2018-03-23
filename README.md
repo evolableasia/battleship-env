@@ -1,5 +1,4 @@
-<h1 align="center"><img src="images/upload/banner_bg.png" alt="EVA AI HACKATHON 22-30th March"><br> EVA Hackathon Development Environment</h1>
-
+# EVA Hackathon Development Environment
 
 ## Installation
 
