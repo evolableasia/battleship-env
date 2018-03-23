@@ -12,7 +12,7 @@ Please install Docker Engine and Docker Compose at this [document](https://docs.
 
 ```sh
 cd battleship-env
-docker-compose build
+./fig.sh build
 ```
 
 ### 4. Test with the two `random` bots
