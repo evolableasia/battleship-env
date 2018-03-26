@@ -9,12 +9,14 @@ services:
       - ./apache/env:/var/www/laravel/.env
       - ./apache/presenter_vhost.conf:/etc/apache2/sites-available/000-default.conf
       - ./bot_urls.txt:/var/www/laravel/public/bot_urls.txt
+    # extra_hosts:
+    #   - "gameengine:xxx"
   redis:
     image: redis
     ports:
       - "6379:6379"
   gameengine:
-    image: dinhnv/eva_gameengine:latest
+    image: dinhnv/eva_gameengine:v1.6
     ports:
       - "5000:5000"
     volumes:
