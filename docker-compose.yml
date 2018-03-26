@@ -16,7 +16,7 @@ services:
     ports:
       - "6379:6379"
   gameengine:
-    image: dinhnv/eva_gameengine:v1.6
+    image: dinhnv/eva_gameengine:v1.7
     ports:
       - "5000:5000"
     volumes:
